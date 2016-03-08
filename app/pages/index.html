@@ -9,35 +9,37 @@
     <link rel="stylesheet" href="../styles/animate.css">
 </head>
 <body>
-    <header class="left-menu">
-        <div class="container">
-          <div class="navigation">
-          	 <div class="logo flipInY animated"></div>
-             <div class="intro">
-                 <ul>                
-                     <li>LYDIA MORAGA</li>
-                     <li>a Web Designer</li>
-                 </ul>
-             </div>    
-          	 <div class="nav-menu-icon"><a href="#" class=""><i></i></a></div>
-          </div> 
-        </div>           	 
-		<nav class="">
-		   <div class="container">
-			 <ul>
-				<li><a href="#home" class="anchor-scroll active">Home</a></li>
-				<li><a href="#about" class="anchor-scroll">About us</a></li>
-				<li><a href="#portfolio" class="anchor-scroll">Portfolio</a></li>
-				<li><a href="#contact" class="anchor-scroll">Contact us</a></li>
-			 </ul>
-		   </div>
-		</nav> 
-     </header>
-    <div id="home">
-        <div class="top-baner">
-            
+    <header id="header">      
+        <div class="navbar navbar-inverse" role="banner">
+            <div class="container">
+                <nav class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="index.html">Home</a></li>                <li><a href="#">Works</a></li>  
+                        <li><a href="#">Profile</a></li> 
+                        <li><a href="#">Résumé</a></li> 
+                        <li><a href="https://twitter.com/momoidagreat" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="Public Profilehttps://sg.linkedin.com/in/lydia-moraga-686a84b7" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-    </div>
+    </header>
+    <!--/#header-->
+
+    <section id="home-slider">
+        <div class="container">
+            <div class="row">
+                <div class="main-slider">
+                    <div class="slide-text">
+                        <h1>LYDIA MORAGA</h1>
+                        <p>“Anyone out there who’s in junior high, high school, working it out, suffering — there are days you’re going to feel sad. You’re going to feel angry. You’re going to feel scared. That’s nothing you can choose. But you can make stuff. Make films. Draw. Write. It will make a world of difference.” ~ Pete Docter</p>
+                    </div>
+                    <img src="images/logo-L.png" class="animated flipInY"> 
+                </div>
+            </div>
+        </div>
+    </section>
+
     <script src="../scripts/jquery-2.1.4.min.js"></script>
     <script src="../scripts/anchors.nav.js"></script>
     <script src="../scripts/app.js"></script>
