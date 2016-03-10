@@ -1,3 +1,8 @@
+//add smoothscroll
+// on animation page fix footer to bottom
+// show active tab
+// float menu with waypoints.js
+
 $(function () {
 	
 	var filterList = {
@@ -37,5 +42,25 @@ $(function () {
 	
 	// Run the show!
 	filterList.init();
+    
+    //waypoint offset
+    var waypoint = new Waypoint({
+      element: document.getElementById('main-container'),
+      handler: function(direction) {
+          
+      },
+      offset: 50 
+    })
+    
+    
+    //Nav Active
+    $('nav li a').click(function() {
+        $('nav li a').removeClass('active');
+        $(this).addClass('active');
+    });
 	
 });		
+
+
+ 
+        
